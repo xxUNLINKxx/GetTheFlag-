@@ -52,6 +52,10 @@ public class player_offline : MonoBehaviour
         {
             anim.SetBool("run", false);
         }
+        if (transform.position.y <= -10)
+        {
+            transform.position = GameObject.Find("spawnPosition").transform.position;
+        }
     }
 
     void Flip()

@@ -109,13 +109,12 @@
     <Compile Include="Assets\Mirror\Examples\Pong\Scripts\Player.cs" />
     <Compile Include="Assets\Mirror\Examples\Tanks\Scripts\Projectile.cs" />
     <Compile Include="Assets\Mirror\Examples\Tanks\Scripts\Tank.cs" />
-    <Compile Include="Assets\scripts\goal.cs" />
-    <Compile Include="Assets\scripts\level.cs" />
-    <Compile Include="Assets\scripts\nextLevel.cs" />
-    <Compile Include="Assets\scripts\Play.cs" />
+    <Compile Include="Assets\scripts\flag.cs" />
     <Compile Include="Assets\scripts\player\player.cs" />
     <Compile Include="Assets\scripts\player\player_offline.cs" />
+    <Compile Include="Assets\scripts\player\playerData.cs" />
     <Compile Include="Assets\scripts\player\playerScore.cs" />
+    <Compile Include="Assets\scripts\player\punchScript.cs" />
     <None Include="Assets\Mirror\Readme.txt" />
     <None Include="Assets\Mirror\License.txt" />
     <None Include="Assets\Mirror\Examples\Tanks\Models\(Public Domain) Recon_Tank\Recon_Tank - License.txt" />
@@ -338,15 +337,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.CecilX">
       <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
     </Reference>
@@ -356,11 +346,20 @@
     <Reference Include="Mono.CecilX.Pdb">
       <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Telepathy">
       <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Runtime/Transport/Telepathy/Telepathy.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

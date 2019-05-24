@@ -24,7 +24,7 @@ namespace Mirror.Examples.NetworkLobby
             */
 
             if (lobby != null && SceneManager.GetActiveScene().name == lobby.LobbyScene)
-                gameObject.transform.SetParent(GameObject.Find("Player").transform);
+                gameObject.transform.SetParent(GameObject.Find("Players").transform);
         }
 
         public override void OnClientEnterLobby()

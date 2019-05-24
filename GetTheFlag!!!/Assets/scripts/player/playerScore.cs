@@ -2,26 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Mirror;
 
-namespace Mirror
+public class playerScore : NetworkBehaviour
 {
-    public class playerScore : NetworkBehaviour
+    [SyncVar]
+    public int score;
+    private float i;
+    public Text pScore;
+
+    [Command]
+    public void Cmd_addPoints(int point)
     {
-        [SyncVar]
-        public int score;
+        i += point;
+        score = (int)(i * 0.01f);
+    }
 
-        public Text pScore;
+    private void FixedUpdate()
+    {
+        pScore.transform.localScale = transform.localScale;
+        pScore.GetComponent<Text>().text = score.ToString();
+        pScore.GetComponent<Text>().color = color;
+    }
 
-        [Command]
-        public void Cmd_addPoints(int point)
-        {
-            score += point;
-        }
+    [SyncVar]
+    Color color;
 
-        private void FixedUpdate()
-        {
-            pScore.GetComponent<Text>().text = score.ToString();
-        }
+    [Command]
+    void Cmd_Color(Color c)
+    {
+        color = c;
+    }
+
+    public void SetColor(Color c)
+    {
+        Cmd_Color(c);
     }
 }
+
 

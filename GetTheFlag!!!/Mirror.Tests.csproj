@@ -305,6 +305,21 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Mdb">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Telepathy">
+      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Runtime/Transport/Telepathy/Telepathy.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -319,21 +334,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Telepathy">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Runtime/Transport/Telepathy/Telepathy.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>C:/Users/ronue/Documents/GAMEDEVPROJECTS/2019-2020/GetTheFlag-/GetTheFlag!!!/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
